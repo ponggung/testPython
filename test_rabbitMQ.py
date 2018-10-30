@@ -17,7 +17,7 @@ cred = pika.PlainCredentials(ad, password)
 params = pika.ConnectionParameters(
     host='127.0.0.1',
     virtual_host='/',
-    # port=5672,
+    # port=1234,
     credentials=cred,
     socket_timeout=10000)
 
