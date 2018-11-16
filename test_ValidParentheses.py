@@ -1,4 +1,4 @@
-def vaild(string):
+def isVaild(string):
     tf1 = string.count("(") == string.count(")")
     tf2 = string[0] == ("(") and string[-1] == (")")
     tf = tf1 and tf2
@@ -13,7 +13,7 @@ str2 = "(()()())"  #valid
 str3 = "))))(((( "  #invalid
 str4 = "(((())))) "  #invalid
 
-print(vaild(str1))
-print(vaild(str2))
-print(vaild(str3))
-print(vaild(str4))
+print(isVaild(str1))
+print(isVaild(str2))
+print(isVaild(str3))
+print(isVaild(str4))
