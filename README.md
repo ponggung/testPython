@@ -1,6 +1,7 @@
 # testPython
 
 - 放一些基本範例跟常用工具
+- Leetcode
 
 
 ## Zen of Python, by Tim Peters
