@@ -21,11 +21,11 @@ def solution(A, B):
 # c = solution(A, B)
 
 
-# from itertools import product
-# from itertools import permutations
-# # for item in product("ABCD","xy"):
-# #     print(item)
-# # print(list(product('ab', range(3))))
+from itertools import product
+from itertools import permutations
+for item in product("ABCD","xy"):
+    print(item)
+# print(list(product('ab', range(3))))
 # print(list(permutations('ABC')))
 
 C = list(combinations("aaaaabbb",8))
